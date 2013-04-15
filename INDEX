@@ -1,0 +1,16 @@
+basehaz.gbm             Baseline hazard function
+calibrate.plot          Calibration plot
+gbm                     Generalized Boosted Regression Modeling
+gbm-package             Generalized Boosted Regression Models
+gbm.object              Generalized Boosted Regression Model Object
+gbm.perf                GBM performance
+interact.gbm            Estimate the strength of interaction effects
+plot.gbm                Marginal plots of fitted gbm objects
+predict.gbm             Predict method for GBM Model Fits
+pretty.gbm.tree         Print gbm tree components
+quantile.rug            Quantile rug plot
+relative.influence      Methods for estimating relative influence
+shrink.gbm              L1 shrinkage of the predictor variables in a
+                        GBM
+shrink.gbm.pred         Predictions from a shrunked GBM
+summary.gbm             Summary of a gbm object
