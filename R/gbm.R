@@ -33,7 +33,9 @@ predict.gbm <- function(object,newdata,n.trees,
    {
      #print('sci prediction')
      iniPredF <- predict(args$inin.model,x)
-     iniPredF <- (iniPredF-mean(iniPredF))/sd(iniPredF)
+     #iniPredF <- (iniPredF-mean(iniPredF))/sd(iniPredF)
+     pCox <- predict(args$inin.model)      # standardize bug fix 08/16/2013
+     iniPredF <- (iniPredF-mean(pCox))/sd(pCox)
    }
    
 
